@@ -12,7 +12,7 @@ public class MSController {
     @RequestMapping(value = "/get", method =  RequestMethod.GET)
     @ResponseBody
     public String getMSControll(ModelMap model){
-        return "getMSControll";
+        return "getMSControll123";
     }
 
 }
